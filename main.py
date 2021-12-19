@@ -32,9 +32,9 @@ from Zaid import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Sameer.modules import ALL_MODULES
-from Sameer.modules.helper_funcs.chat_status import is_user_admin
-from Sameer.modules.helper_funcs.misc import paginate_modules
+from Zaid.modules import ALL_MODULES
+from Zaid.modules.helper_funcs.chat_status import is_user_admin
+from Zaid.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -99,7 +99,7 @@ buttons = [
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
-     ],
+     ], 
      [  
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/deadly_userbot"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/deadly_techy"),
