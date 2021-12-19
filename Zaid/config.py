@@ -34,8 +34,8 @@ class Config(object):
     HEROKU_API_KEY = ""
     BOT_ID = "1901951380"
     STRING_SESSION = ""
-    SQLALCHEMY_DATABASE_URI = ""
-    DATABASE_URL = ""
+    SQLALCHEMY_DATABASE_URI = "postgres://txfpgmmc:U4lmTyueK0grG-VzLBRnOb7lRHxQNsyx@topsy.db.elephantsql.com/txfpgmmc"
+    DATABASE_URL = "postgres://txfpgmmc:U4lmTyueK0grG-VzLBRnOb7lRHxQNsyx@topsy.db.elephantsql.com/txfpgmmc"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
