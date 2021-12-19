@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/Sameer
-RUN git clone https://github.com/DEADLY-FIGHTERS/DEADLY-MANAGER-BOT /root/Sameer
-WORKDIR /root/Sameer
+# Copy Python Requirements to /root/Zaid
+RUN git clone https://github.com/DEADLY-FIGHTERS/DEADLY-MANAGER-BOT /root/Zaid
+WORKDIR /root/Zaid
 
-#Copy config file to /root/Sameer/Sameer
-COPY ./Sameer/sample_config.py ./Sameer/config.py* /root/Sameer/Sameer/
+#Copy config file to /root/Zaid/Zaid
+COPY ./Zaid/sample_config.py ./Zaid/config.py* /root/Zaid/Zaid/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Sameer"]
+CMD ["python3","-m","Zaid"]
