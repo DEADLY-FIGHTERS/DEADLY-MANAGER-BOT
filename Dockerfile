@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Zaid 
-RUN git clone https://github.com/ITZ-ZAID/Robot /root/Zaid
-WORKDIR /root/Zaid
+RUN git clone https://github.com/DEADLY-FIGHTERS/DEADLY-MANAGER-BOT /root/Sameer
+WORKDIR /root/Sameer
 
 #Copy config file to /root/Zaid/Zaid
-COPY ./Zaid/sample_config.py ./Zaid/config.py* /root/Zaid/Zaid/
+COPY ./Sameer/sample_config.py ./Sameer/config.py* /root/Sameer/Sameer/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Zaid"]
+CMD ["python3","-m","Sameer"]
