@@ -382,8 +382,8 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Commands 🏓", callback_data="help_back"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support ⚒️", callback_data="Deadly_userbot"),
-                    InlineKeyboardButton(text="Developer 🎁", callback_data="official_sameer"),
+                    InlineKeyboardButton(text="Support ⚒️", callback_data="emiko_support"),
+                    InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="Donate 💝", url=f"t.me/official_sameer"),
@@ -455,7 +455,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Zaid", url="t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Aman", url="t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="Sameer", url="t.me/Official_sameer"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
