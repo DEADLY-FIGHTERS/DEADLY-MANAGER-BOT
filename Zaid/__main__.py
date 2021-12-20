@@ -95,7 +95,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly_fighters_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly-fighters-bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
@@ -383,7 +383,7 @@ def emiko_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Support ⚒️", callback_data="Deadly_userbot"),
-                    InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="Developer 🎁", callback_data="official_sameer"),
                  ],
                  [
                     InlineKeyboardButton(text="Donate 💝", url=f"t.me/official_sameer"),
