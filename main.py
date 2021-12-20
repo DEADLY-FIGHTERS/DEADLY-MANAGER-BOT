@@ -95,7 +95,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly_fighters_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly-fighters-bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
