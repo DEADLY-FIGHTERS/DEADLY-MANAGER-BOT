@@ -82,20 +82,19 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😈 HI'm Deadly, An anime - Themed advanced telegram Group management with lots of features.
+😈 Hey I am Deadly : An anime - Themed advanced telegram Group management Bot with lots of cool features.
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
-✪ Bot For help You Manage & Protect Your Groups.
-[➼](https://telegra.ph/file/e13ca872cbb0a99046ebb.jpg) So What U Waiting For Add Me To Ur chat
+✪ Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/e13ca872cbb0a99046ebb.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
 ───────────────────────
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/deadly_fighters_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔥", url="t.me/deadly_fighters_bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
